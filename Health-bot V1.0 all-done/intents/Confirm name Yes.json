@@ -1,0 +1,78 @@
+{
+  "id": "4de7070b-9de9-40ec-9a8d-1f99608af1f7",
+  "name": "Confirm name Yes",
+  "auto": true,
+  "contexts": [
+    "awaiting-name-check"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "user-email",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thanks #awaiting-name-check.name for confirmaion,  Please enter your Email  ."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": ""
+                        }
+                      },
+                      "text": "Yes",
+                      "link": ""
+                    },
+                    {
+                      "link": "",
+                      "image": {
+                        "src": {
+                          "rawUrl": ""
+                        }
+                      },
+                      "text": "NO"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,88 @@
+{
+  "id": "fed78aec-5db7-40bc-ac90-c54ba7c31a04",
+  "name": "Nutrition information",
+  "auto": true,
+  "contexts": [
+    "nutrition-info"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3605b948-af0e-476d-b1d3-c5260e1bc123",
+          "name": "food-nutrient",
+          "required": true,
+          "dataType": "@sys.any",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Enter a query like \" 1 cup mashed potatoes and 2 tbsp gravy \" ."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Nutrient Data"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "accessibilityText": "Dialogflow across platforms",
+                  "type": "image",
+                  "rawUrl": "https://example.com/images/logo.png"
+                },
+                {
+                  "type": "info",
+                  "subtitle": "Build natural and rich conversational experiences",
+                  "title": "Dialogflow"
+                },
+                {
+                  "text": [
+                    "This is text line 1.",
+                    "This is text line 2."
+                  ],
+                  "title": "Description title",
+                  "type": "description"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

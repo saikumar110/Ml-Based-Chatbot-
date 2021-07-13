@@ -1,0 +1,81 @@
+{
+  "responseId": "9b2e33da-91b6-4797-8d59-7cfe3f374543-ae5d3882",
+  "queryResult": {
+    "queryText": "1 cup mashed potatoes and 2 tbsp gravy",
+    "parameters": {
+      "food-nutrient": "1 cup mashed potatoes and 2 tbsp gravy"
+    },
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "Nutrient Data",
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            "Nutrient Data"
+          ]
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/health-bot-mbfm/locations/global/agent/sessions/2a60ccd2-1d7b-889d-dfe0-1f620f8726c0/contexts/awaiting-name",
+        "lifespanCount": 3,
+        "parameters": {
+          "food-nutrient": "1 cup mashed potatoes and 2 tbsp gravy",
+          "food-nutrient.original": "1 cup mashed potatoes and 2 tbsp gravy"
+        }
+      },
+      {
+        "name": "projects/health-bot-mbfm/locations/global/agent/sessions/2a60ccd2-1d7b-889d-dfe0-1f620f8726c0/contexts/nutrition-info",
+        "lifespanCount": 4,
+        "parameters": {
+          "food-nutrient": "1 cup mashed potatoes and 2 tbsp gravy",
+          "name.original": "Menu",
+          "name": "Menu",
+          "food-nutrient.original": "1 cup mashed potatoes and 2 tbsp gravy"
+        }
+      },
+      {
+        "name": "projects/health-bot-mbfm/locations/global/agent/sessions/2a60ccd2-1d7b-889d-dfe0-1f620f8726c0/contexts/nutritions-specalist",
+        "lifespanCount": 3,
+        "parameters": {
+          "food-nutrient.original": "1 cup mashed potatoes and 2 tbsp gravy",
+          "food-nutrient": "1 cup mashed potatoes and 2 tbsp gravy"
+        }
+      },
+      {
+        "name": "projects/health-bot-mbfm/locations/global/agent/sessions/2a60ccd2-1d7b-889d-dfe0-1f620f8726c0/contexts/awaiting-name-check",
+        "lifespanCount": 2,
+        "parameters": {
+          "food-nutrient.original": "1 cup mashed potatoes and 2 tbsp gravy",
+          "name": "Menu",
+          "food-nutrient": "1 cup mashed potatoes and 2 tbsp gravy",
+          "name.original": "Menu"
+        }
+      },
+      {
+        "name": "projects/health-bot-mbfm/locations/global/agent/sessions/2a60ccd2-1d7b-889d-dfe0-1f620f8726c0/contexts/calorie-counter",
+        "lifespanCount": 4,
+        "parameters": {
+          "food-nutrient.original": "1 cup mashed potatoes and 2 tbsp gravy",
+          "name.original": "Menu",
+          "food-nutrient": "1 cup mashed potatoes and 2 tbsp gravy",
+          "name": "Menu"
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/health-bot-mbfm/locations/global/agent/intents/fed78aec-5db7-40bc-ac90-c54ba7c31a04",
+      "displayName": "Nutrition information"
+    },
+    "intentDetectionConfidence": 0.3,
+    "languageCode": "en",
+    "sentimentAnalysisResult": {
+      "queryTextSentiment": {}
+    }
+  },
+  "agentId": "6d4292c6-9ea5-4008-9d59-2c58fcc0b2c7",
+  "agentSettings": {
+    "enableAgentWideKnowledgeConnector": true
+  }
+}

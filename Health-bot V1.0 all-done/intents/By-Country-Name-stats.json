@@ -1,0 +1,58 @@
+{
+  "id": "84c66609-a5dd-47ec-bcc6-468706fe9cf7",
+  "name": "By-Country-Name-stats",
+  "auto": true,
+  "contexts": [
+    "by-country-name"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "by-country-name",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "bf5b8838-531b-403c-8cf2-14c13c7a2927",
+          "name": "State_country",
+          "required": true,
+          "dataType": "@sys.geo-country",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Enter the State name."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

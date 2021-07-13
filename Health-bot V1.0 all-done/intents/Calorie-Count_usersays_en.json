@@ -1,0 +1,56 @@
+[
+  {
+    "id": "add3801c-55d6-4e16-a23c-0812c4a1df1f",
+    "data": [
+      {
+        "text": "145.20",
+        "meta": "@sys.number",
+        "alias": "height",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5bb54fbb-4d8e-4d2d-aa7c-a7a1275d4d64",
+    "data": [
+      {
+        "text": "Calorie Counter",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d54e0399-c432-4871-a49f-3756084b1f8f",
+    "data": [
+      {
+        "text": "Calories",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dcdc9ee6-4629-4b98-b72b-990080bf221c",
+    "data": [
+      {
+        "text": "Calories Count",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

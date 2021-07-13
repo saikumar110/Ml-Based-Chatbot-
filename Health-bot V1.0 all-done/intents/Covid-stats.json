@@ -1,0 +1,80 @@
+{
+  "id": "e1b92041-2c1a-4fcd-9f71-29e6f0a4cef2",
+  "name": "Covid-stats",
+  "auto": true,
+  "contexts": [
+    "covid-stats"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "by-country-name",
+          "lifespan": 5
+        },
+        {
+          "name": "world",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "By Country Name",
+                      "link": "",
+                      "image": {
+                        "src": {
+                          "rawUrl": ""
+                        }
+                      }
+                    },
+                    {
+                      "text": "world-wide",
+                      "link": "",
+                      "image": {
+                        "src": {
+                          "rawUrl": ""
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

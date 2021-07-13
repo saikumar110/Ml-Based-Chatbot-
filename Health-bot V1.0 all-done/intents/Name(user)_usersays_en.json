@@ -1,0 +1,140 @@
+[
+  {
+    "id": "e5aa47bb-c6b9-4e5c-8272-029f362f460d",
+    "data": [
+      {
+        "text": "Symptioms Based predictions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3d09be7d-3ceb-4a9a-94fb-396a79701141",
+    "data": [
+      {
+        "text": "Symptioms Based",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "efad85a8-12cf-4862-a98a-3e28da14ad13",
+    "data": [
+      {
+        "text": "Predictions of diseases",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "43ff9850-e04e-4a1c-b309-07d12cb048b4",
+    "data": [
+      {
+        "text": "Check for disease",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cd09d1d1-1896-4367-bf18-a6fd473f1c9f",
+    "data": [
+      {
+        "text": "Predictions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "74e24a29-1a90-4c3c-9fad-99626dcbba3e",
+    "data": [
+      {
+        "text": "talk",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d8e915d1-17a3-47d2-87dc-03085fc9aa30",
+    "data": [
+      {
+        "text": "rahul Gandhi",
+        "meta": "@sys.given-name",
+        "alias": "name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7daa3629-9a68-44ab-be87-dd6e0cf69b6d",
+    "data": [
+      {
+        "text": "divij Singh",
+        "meta": "@sys.given-name",
+        "alias": "name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bcafa549-aef9-4d29-a6f2-0021b188accb",
+    "data": [
+      {
+        "text": "saikumar",
+        "meta": "@sys.given-name",
+        "alias": "name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e7e5e6bb-18fb-4e45-9d71-4a5ddafd0ef3",
+    "data": [
+      {
+        "text": "Pradnya kamble",
+        "meta": "@sys.given-name",
+        "alias": "name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

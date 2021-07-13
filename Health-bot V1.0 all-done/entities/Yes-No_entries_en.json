@@ -1,0 +1,50 @@
+[
+  {
+    "value": "Yes",
+    "synonyms": [
+      "Yes"
+    ]
+  },
+  {
+    "value": "No",
+    "synonyms": [
+      "No"
+    ]
+  },
+  {
+    "value": "no",
+    "synonyms": [
+      "no"
+    ]
+  },
+  {
+    "value": "nope",
+    "synonyms": [
+      "nope"
+    ]
+  },
+  {
+    "value": "n",
+    "synonyms": [
+      "n"
+    ]
+  },
+  {
+    "value": "y",
+    "synonyms": [
+      "y"
+    ]
+  },
+  {
+    "value": "yup",
+    "synonyms": [
+      "yup"
+    ]
+  },
+  {
+    "value": "yaa",
+    "synonyms": [
+      "yaa"
+    ]
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "id": "4683eddf-e8c4-4af3-9b59-d7f9de0ab0e4",
+  "name": "Get Name Catch All",
+  "auto": true,
+  "contexts": [
+    "awaiting-name"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "awaiting-name-check",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "07ff2614-fd09-4013-ace0-172fcba11c82",
+          "name": "name",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Can you confirm that  $name is your name ."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

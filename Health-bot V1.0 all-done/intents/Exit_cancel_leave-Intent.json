@@ -1,0 +1,54 @@
+{
+  "id": "5fd524cc-4102-4744-a807-d65e893f5781",
+  "name": "Exit/cancel/leave-Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "358a3c7a-d369-4a99-83d6-dbe84b064b23",
+          "name": "exiting",
+          "required": false,
+          "dataType": "@EXIT",
+          "value": "$exiting",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Hope you\u0027ll visit Again 😊",
+            "Had a nice Time with you...😊",
+            "Nice to meet you . 😊",
+            "Feel free to have a talk again....\u0027😊"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

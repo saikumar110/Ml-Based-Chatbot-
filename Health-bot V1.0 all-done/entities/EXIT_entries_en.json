@@ -1,0 +1,32 @@
+[
+  {
+    "value": "exit",
+    "synonyms": [
+      "exit"
+    ]
+  },
+  {
+    "value": "bye",
+    "synonyms": [
+      "bye"
+    ]
+  },
+  {
+    "value": "thank you",
+    "synonyms": [
+      "thank you"
+    ]
+  },
+  {
+    "value": "stop",
+    "synonyms": [
+      "stop"
+    ]
+  },
+  {
+    "value": "thanks",
+    "synonyms": [
+      "thanks"
+    ]
+  }
+]

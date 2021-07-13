@@ -1,0 +1,138 @@
+{
+  "id": "ff6d7855-eefd-401f-9861-e87de8e5692f",
+  "name": "Calorie-Count",
+  "auto": true,
+  "contexts": [
+    "calorie-counter"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "6e0fb926-672b-4580-9d44-7174d8fdfaa8",
+          "name": "Query",
+          "required": true,
+          "dataType": "@sys.any",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Exercise You Performed ."
+            },
+            {
+              "lang": "en",
+              "value": "Exercise You are going to perform ."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "a34d7512-1d81-47f7-8570-f89e351f8d04",
+          "name": "gender",
+          "required": true,
+          "dataType": "@gender",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Enter your Gender  ."
+            },
+            {
+              "lang": "en",
+              "value": "Let me know your gender"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "6ef26e89-e94f-42dc-bfb0-1eaf463c334f",
+          "name": "weight",
+          "required": true,
+          "dataType": "@sys.unit-weight",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Enter your weight."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "78e7208f-4e5b-4ed8-b065-4cf473256599",
+          "name": "height",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$height",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Enter your height ."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "92733919-6d43-48e1-81ac-1233ff18a02e",
+          "name": "age",
+          "required": true,
+          "dataType": "@sys.number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Enter Your age ."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Done Calorie count"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

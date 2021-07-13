@@ -1,0 +1,257 @@
+{
+  "responseId": "7f873034-0ff4-4eb3-a276-347ea397134d-ae5d3882",
+  "queryResult": {
+    "queryText": "n",
+    "parameters": {
+      "chest_pain": "n",
+      "fatigue": "n",
+      "sweating": "n",
+      "loss_of_appetite": "n",
+      "high_fever": "n",
+      "abdominal_pain": "n",
+      "dark_urine": "n",
+      "cough": "n",
+      "nausea": "n",
+      "vomiting": "n",
+      "yellowish_skin": "n",
+      "yellowing_of_eyes": "n",
+      "skin_rash": "n",
+      "headache": "n",
+      "itching": "n",
+      "diarrhoea": "n",
+      "malaise": "n",
+      "chills": "n",
+      "joint_pain": "n",
+      "muscle_pain": "n"
+    },
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "sai , we will Let You Know In Some Time.......",
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            "sai , we will Let You Know In Some Time......."
+          ]
+        }
+      },
+      {
+        "payload": {
+          "richContent": [
+            [
+              {
+                "options": [
+                  {
+                    "text": "Menu",
+                    "image": {
+                      "src": {
+                        "rawUrl": ""
+                      }
+                    },
+                    "link": ""
+                  },
+                  {
+                    "link": "",
+                    "image": {
+                      "src": {
+                        "rawUrl": ""
+                      }
+                    },
+                    "text": "FaQ"
+                  },
+                  {
+                    "text": "Symption Based Prediction",
+                    "image": {
+                      "src": {
+                        "rawUrl": ""
+                      }
+                    },
+                    "link": ""
+                  },
+                  {
+                    "image": {
+                      "src": {
+                        "rawUrl": ""
+                      }
+                    },
+                    "text": "Thank you",
+                    "link": ""
+                  }
+                ],
+                "type": "chips"
+              }
+            ]
+          ]
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/health-bot-mbfm/locations/global/agent/sessions/9ac311aa-fb76-4f2c-24e3-b9513bcb0580/contexts/user-email",
+        "lifespanCount": 2,
+        "parameters": {
+          "headache": "n",
+          "yellowish_skin": "n",
+          "yellowing_of_eyes.original": "n",
+          "cough.original": "n",
+          "joint_pain.original": "n",
+          "vomiting.original": "n",
+          "sweating": "n",
+          "chills.original": "n",
+          "fatigue": "n",
+          "nausea": "n",
+          "fatigue.original": "n",
+          "chest_pain.original": "n",
+          "headache.original": "n",
+          "high_fever.original": "n",
+          "diarrhoea.original": "n",
+          "malaise": "n",
+          "name.original": "sai",
+          "itching": "n",
+          "email": "sai@gmail.com",
+          "high_fever": "n",
+          "muscle_pain": "n",
+          "random.original": "",
+          "loss_of_appetite": "n",
+          "abdominal_pain.original": "n",
+          "joint_pain": "n",
+          "random": "",
+          "dark_urine.original": "n",
+          "cough": "n",
+          "chills": "n",
+          "yellowing_of_eyes": "n",
+          "skin_rash.original": "n",
+          "loss_of_appetite.original": "n",
+          "vomiting": "n",
+          "name": "sai",
+          "malaise.original": "n",
+          "abdominal_pain": "n",
+          "diarrhoea": "n",
+          "chest_pain": "n",
+          "itching.original": "n",
+          "dark_urine": "n",
+          "muscle_pain.original": "n",
+          "email.original": "sai@gmail.com",
+          "skin_rash": "n",
+          "yellowish_skin.original": "n",
+          "nausea.original": "n",
+          "sweating.original": "n"
+        }
+      },
+      {
+        "name": "projects/health-bot-mbfm/locations/global/agent/sessions/9ac311aa-fb76-4f2c-24e3-b9513bcb0580/contexts/prediction",
+        "lifespanCount": 3,
+        "parameters": {
+          "vomiting": "n",
+          "skin_rash": "n",
+          "diarrhoea": "n",
+          "headache.original": "n",
+          "malaise": "n",
+          "abdominal_pain": "n",
+          "muscle_pain.original": "n",
+          "headache": "n",
+          "vomiting.original": "n",
+          "cough.original": "n",
+          "chest_pain": "n",
+          "itching": "n",
+          "yellowish_skin": "n",
+          "email.original": "sai@gmail.com",
+          "loss_of_appetite": "n",
+          "high_fever": "n",
+          "skin_rash.original": "n",
+          "fatigue": "n",
+          "loss_of_appetite.original": "n",
+          "chills": "n",
+          "yellowing_of_eyes": "n",
+          "chest_pain.original": "n",
+          "chills.original": "n",
+          "abdominal_pain.original": "n",
+          "high_fever.original": "n",
+          "nausea.original": "n",
+          "fatigue.original": "n",
+          "itching.original": "n",
+          "dark_urine": "n",
+          "dark_urine.original": "n",
+          "nausea": "n",
+          "email": "sai@gmail.com",
+          "malaise.original": "n",
+          "cough": "n",
+          "sweating": "n",
+          "joint_pain": "n",
+          "yellowish_skin.original": "n",
+          "random": "",
+          "diarrhoea.original": "n",
+          "sweating.original": "n",
+          "yellowing_of_eyes.original": "n",
+          "muscle_pain": "n",
+          "joint_pain.original": "n",
+          "random.original": ""
+        }
+      },
+      {
+        "name": "projects/health-bot-mbfm/locations/global/agent/sessions/9ac311aa-fb76-4f2c-24e3-b9513bcb0580/contexts/awaiting-name-check",
+        "lifespanCount": 1,
+        "parameters": {
+          "joint_pain": "n",
+          "name": "sai",
+          "yellowish_skin": "n",
+          "cough.original": "n",
+          "email.original": "sai@gmail.com",
+          "headache.original": "n",
+          "muscle_pain.original": "n",
+          "high_fever": "n",
+          "vomiting.original": "n",
+          "skin_rash": "n",
+          "high_fever.original": "n",
+          "fatigue.original": "n",
+          "chest_pain.original": "n",
+          "abdominal_pain": "n",
+          "abdominal_pain.original": "n",
+          "name.original": "sai",
+          "random": "",
+          "malaise": "n",
+          "itching.original": "n",
+          "yellowish_skin.original": "n",
+          "headache": "n",
+          "itching": "n",
+          "dark_urine.original": "n",
+          "fatigue": "n",
+          "random.original": "",
+          "sweating": "n",
+          "vomiting": "n",
+          "yellowing_of_eyes": "n",
+          "nausea.original": "n",
+          "joint_pain.original": "n",
+          "skin_rash.original": "n",
+          "dark_urine": "n",
+          "sweating.original": "n",
+          "loss_of_appetite": "n",
+          "chills": "n",
+          "muscle_pain": "n",
+          "cough": "n",
+          "nausea": "n",
+          "malaise.original": "n",
+          "chills.original": "n",
+          "chest_pain": "n",
+          "loss_of_appetite.original": "n",
+          "diarrhoea": "n",
+          "diarrhoea.original": "n",
+          "email": "sai@gmail.com",
+          "yellowing_of_eyes.original": "n"
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/health-bot-mbfm/locations/global/agent/intents/e6f78410-1c82-43df-abed-1b7922bca414",
+      "displayName": "Symptoms -Based Prediction"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "en",
+    "sentimentAnalysisResult": {
+      "queryTextSentiment": {}
+    }
+  },
+  "agentId": "6d4292c6-9ea5-4008-9d59-2c58fcc0b2c7",
+  "agentSettings": {
+    "enableAgentWideKnowledgeConnector": true
+  }
+}

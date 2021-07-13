@@ -1,0 +1,17 @@
+[
+  {
+    "id": "aa402c77-4cd9-4d84-ab4f-f88fdc166589",
+    "data": [
+      {
+        "text": "yes",
+        "meta": "@Yes-No",
+        "alias": "fatigue",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

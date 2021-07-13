@@ -1,0 +1,28 @@
+[
+  {
+    "id": "a7e52a44-22e7-4d49-a74f-caffb861ac29",
+    "data": [
+      {
+        "text": "Covid latest news",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "776f8f13-6833-4342-9d8d-789f418e56b7",
+    "data": [
+      {
+        "text": "Covid-News",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,146 @@
+{
+  "responseId": "22d1aa16-272b-4eae-8315-16e79d1843e2-d74139ee",
+  "queryResult": {
+    "queryText": "25",
+    "parameters": {
+      "gender": "Male",
+      "height": 145.2,
+      "weight": {
+        "amount": 25,
+        "unit": "kg"
+      },
+      "Query": "jogging 2 hr",
+      "age": 25
+    },
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "Done Calorie count",
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            "Done Calorie count"
+          ]
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/health-bot-mbfm/locations/global/agent/sessions/ef20acc3-99df-fe5d-229f-e28d2d0e8423/contexts/awaiting-name",
+        "lifespanCount": 3,
+        "parameters": {
+          "age": 25,
+          "height.original": "145.20",
+          "weight": {
+            "amount": 25,
+            "unit": "kg"
+          },
+          "age.original": "25",
+          "height": 145.2,
+          "gender.original": "male",
+          "weight.original": "25kg",
+          "gender": "Male",
+          "Query.original": "jogging 2 hr",
+          "Query": "jogging 2 hr"
+        }
+      },
+      {
+        "name": "projects/health-bot-mbfm/locations/global/agent/sessions/ef20acc3-99df-fe5d-229f-e28d2d0e8423/contexts/nutrition-info",
+        "lifespanCount": 4,
+        "parameters": {
+          "age.original": "25",
+          "gender.original": "male",
+          "gender": "Male",
+          "weight": {
+            "amount": 25,
+            "unit": "kg"
+          },
+          "height": 145.2,
+          "height.original": "145.20",
+          "age": 25,
+          "weight.original": "25kg",
+          "Query": "jogging 2 hr",
+          "Query.original": "jogging 2 hr"
+        }
+      },
+      {
+        "name": "projects/health-bot-mbfm/locations/global/agent/sessions/ef20acc3-99df-fe5d-229f-e28d2d0e8423/contexts/nutritions-specalist",
+        "lifespanCount": 3,
+        "parameters": {
+          "gender.original": "male",
+          "height.original": "145.20",
+          "height": 145.2,
+          "age": 25,
+          "Query": "jogging 2 hr",
+          "gender": "Male",
+          "weight.original": "25kg",
+          "weight": {
+            "amount": 25,
+            "unit": "kg"
+          },
+          "Query.original": "jogging 2 hr",
+          "age.original": "25"
+        }
+      },
+      {
+        "name": "projects/health-bot-mbfm/locations/global/agent/sessions/ef20acc3-99df-fe5d-229f-e28d2d0e8423/contexts/awaiting-name-check",
+        "lifespanCount": 2,
+        "parameters": {
+          "height.original": "145.20",
+          "name.original": "Menu",
+          "age.original": "25",
+          "name": "Menu",
+          "age": 25,
+          "height": 145.2,
+          "weight.original": "25kg",
+          "Query.original": "jogging 2 hr",
+          "gender.original": "male",
+          "Query": "jogging 2 hr",
+          "weight": {
+            "amount": 25,
+            "unit": "kg"
+          },
+          "gender": "Male"
+        }
+      },
+      {
+        "name": "projects/health-bot-mbfm/locations/global/agent/sessions/ef20acc3-99df-fe5d-229f-e28d2d0e8423/contexts/calorie-counter",
+        "lifespanCount": 4,
+        "parameters": {
+          "gender.original": "male",
+          "Query": "jogging 2 hr",
+          "gender": "Male",
+          "height": 145.2,
+          "Query.original": "jogging 2 hr",
+          "age": 25,
+          "weight": {
+            "amount": 25,
+            "unit": "kg"
+          },
+          "weight.original": "25kg",
+          "height.original": "145.20",
+          "age.original": "25"
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/health-bot-mbfm/locations/global/agent/intents/ff6d7855-eefd-401f-9861-e87de8e5692f",
+      "displayName": "Calorie-Count",
+      "endInteraction": true
+    },
+    "intentDetectionConfidence": 1,
+    "diagnosticInfo": {
+      "end_conversation": true
+    },
+    "languageCode": "en",
+    "sentimentAnalysisResult": {
+      "queryTextSentiment": {
+        "score": 0.1,
+        "magnitude": 0.1
+      }
+    }
+  },
+  "agentId": "6d4292c6-9ea5-4008-9d59-2c58fcc0b2c7",
+  "agentSettings": {
+    "enableAgentWideKnowledgeConnector": true
+  }
+}

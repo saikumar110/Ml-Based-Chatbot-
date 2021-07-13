@@ -1,0 +1,592 @@
+{
+  "id": "e6f78410-1c82-43df-abed-1b7922bca414",
+  "name": "Symptoms -Based Prediction",
+  "auto": true,
+  "contexts": [
+    "prediction"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3ff821c5-9502-4baa-aca5-43d723f26ec3",
+          "name": "fatigue",
+          "required": true,
+          "dataType": "@Yes-No",
+          "value": "$fatigue",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Are you experiencing tiredness...?"
+            },
+            {
+              "lang": "en",
+              "value": "Is there any fatigue...?"
+            },
+            {
+              "lang": "en",
+              "value": "Are you feeling a lot of fatigue...?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "78cc9580-9707-410e-99d9-39850a97e579",
+          "name": "vomiting",
+          "required": true,
+          "dataType": "@Yes-No",
+          "value": "$vomiting",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Do you feel vomiting ?"
+            },
+            {
+              "lang": "en",
+              "value": "Are you feeling  vomiting ?"
+            },
+            {
+              "lang": "en",
+              "value": "Did Vomiting begin ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "90d82438-2d97-4f29-b878-a734a4f53239",
+          "name": "high_fever",
+          "required": true,
+          "dataType": "@Yes-No",
+          "value": "$high_fever",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Is there a fever?"
+            },
+            {
+              "lang": "en",
+              "value": "Do you smell a temperature?"
+            },
+            {
+              "lang": "en",
+              "value": "Can you smell any fever?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "13eef5e7-0f3d-4337-986f-9409dcb2ec85",
+          "name": "headache",
+          "required": true,
+          "dataType": "@Yes-No",
+          "value": "$headache",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Do you feel headache...?"
+            },
+            {
+              "lang": "en",
+              "value": "Are you suffering from a headache...?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "348c67a9-5677-4eee-8104-db79b5722e55",
+          "name": "loss_of_appetite",
+          "required": true,
+          "dataType": "@Yes-No",
+          "value": "$loss_of_appetite",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Do you feel loss of appetite ?"
+            },
+            {
+              "lang": "en",
+              "value": "Are you feeling loss of appetite ?"
+            },
+            {
+              "lang": "en",
+              "value": "Is there loss of appetite  ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "34fbbc2c-118f-4fa5-ba3e-e8d0c425c50a",
+          "name": "nausea",
+          "required": true,
+          "dataType": "@Yes-No",
+          "value": "$nausea",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Are you feeling nausea  ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b6862671-37d2-4a6c-9bb6-5dcd78d045ec",
+          "name": "abdominal_pain",
+          "required": true,
+          "dataType": "@Yes-No",
+          "value": "$abdominal_pain",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Do you feel abdominal pain   ?"
+            },
+            {
+              "lang": "en",
+              "value": "Are you feeling abdomnial pain ?"
+            },
+            {
+              "lang": "en",
+              "value": "Is there abdominal pain  ?"
+            },
+            {
+              "lang": "en",
+              "value": "Are you suffering from abdominal pain ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "956c7d88-b63d-467c-a850-9a87bcea6a25",
+          "name": "yellowish_skin",
+          "required": true,
+          "dataType": "@Yes-No",
+          "value": "$yellowish_skin",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Is you skin yellowish ?"
+            },
+            {
+              "lang": "en",
+              "value": "Is you skin yellow ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "08652082-868d-4982-a1ea-2011c64a62b9",
+          "name": "yellowing_of_eyes",
+          "required": true,
+          "dataType": "@Yes-No",
+          "value": "$yellowing_of_eyes",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Are your eyes Yellow in color ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "7ba963c8-afb0-4eba-8c81-b2b8f1a72dec",
+          "name": "skin_rash",
+          "required": true,
+          "dataType": "@Yes-No",
+          "value": "$skin_rash",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Do you have skin rashes?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "5631411f-1358-4a43-a54f-48b4b5c46778",
+          "name": "malaise",
+          "required": true,
+          "dataType": "@Yes-No",
+          "value": "$malaise",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Do you feel malaise ?  Malaise is a  general feeling of discomfort, lack of well-being, or illness"
+            },
+            {
+              "lang": "en",
+              "value": "Are you feeling malaise ? Malaise is a  general feeling of discomfort, lack of well-being, or illness"
+            },
+            {
+              "lang": "en",
+              "value": "Are you suffering from malaise ? Malaise is a  general feeling of discomfort, lack of well-being, or illness"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "12d01120-d91a-499f-963f-5d7c90db79e1",
+          "name": "chills",
+          "required": true,
+          "dataType": "@Yes-No",
+          "value": "$chills",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Do you feel chills ?                                 Having chills refers to feeling excessively cold, even when you are wearing warm clothing or are wrapped in blankets."
+            },
+            {
+              "lang": "en",
+              "value": "Are you feeling chills ?                              Having chills refers to feeling excessively cold, even when you are wearing warm clothing or are wrapped in blankets."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b410e5a3-36a0-41a6-83c6-297f5c2850ce",
+          "name": "chest_pain",
+          "required": true,
+          "dataType": "@Yes-No",
+          "value": "$chest_pain",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Do you feel chest pain ?"
+            },
+            {
+              "lang": "en",
+              "value": "Are you feeling chest pain ?"
+            },
+            {
+              "lang": "en",
+              "value": "Do you suffer from chest pain ?"
+            },
+            {
+              "lang": "en",
+              "value": "Are you suffering from chest pain ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "e86ef688-589e-4242-9560-7c4c9f613540",
+          "name": "joint_pain",
+          "required": true,
+          "dataType": "@Yes-No",
+          "value": "$joint_pain",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Are you feeling joint pain ?"
+            },
+            {
+              "lang": "en",
+              "value": "Are you suffering from joint pain ?"
+            },
+            {
+              "lang": "en",
+              "value": "Do you feel joint pain ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "2ac9b3cf-82ee-47e4-b62f-ec12f2bb1516",
+          "name": "itching",
+          "required": true,
+          "dataType": "@Yes-No",
+          "value": "$itching",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Are you feeling itching in your  body?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "e8fb7a49-f332-46c0-9611-bd9f4da5c247",
+          "name": "sweating",
+          "required": true,
+          "dataType": "@Yes-No",
+          "value": "$sweating",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Do you feel sweating ?"
+            },
+            {
+              "lang": "en",
+              "value": "Are you feeling sweating ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "f441271a-6dbe-4058-a665-c9440e7cba56",
+          "name": "diarrhoea",
+          "required": true,
+          "dataType": "@Yes-No",
+          "value": "$diarrhoea",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Are you suffering from Diarrhoea ? Diarrhoea is when your bowel movements become loose or watery"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "c093ed1b-e28d-41ea-abfb-ab6e2e6f5d63",
+          "name": "dark_urine",
+          "required": true,
+          "dataType": "@Yes-No",
+          "value": "$dark_urine",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Do you suffer from black urination?"
+            },
+            {
+              "lang": "en",
+              "value": "Do you suffer from dark urine?"
+            },
+            {
+              "lang": "en",
+              "value": "Is your urination dark?"
+            },
+            {
+              "lang": "en",
+              "value": "Have you got dark urination?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "6c750da9-6c39-4915-a360-5e259f2a0491",
+          "name": "muscle_pain",
+          "required": true,
+          "dataType": "@Yes-No",
+          "value": "$muscle_pain",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Have you got muscle_pain?"
+            },
+            {
+              "lang": "en",
+              "value": "Do you suffer from muscular tissue damage?"
+            },
+            {
+              "lang": "en",
+              "value": "You got muscle pain?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "f3adfb05-247a-4f2e-be11-d87ce784d952",
+          "name": "cough",
+          "required": true,
+          "dataType": "@Yes-No",
+          "value": "$cough",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "You have a cough or something?"
+            },
+            {
+              "lang": "en",
+              "value": "Do you experience a cough?"
+            },
+            {
+              "lang": "en",
+              "value": "You got any coughs?"
+            },
+            {
+              "lang": "en",
+              "value": "Do you feel coughy?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "#awaiting-name-check.name , we will Let You Know In Some Time......."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Menu",
+                      "link": "",
+                      "image": {
+                        "src": {
+                          "rawUrl": ""
+                        }
+                      }
+                    },
+                    {
+                      "link": "",
+                      "image": {
+                        "src": {
+                          "rawUrl": ""
+                        }
+                      },
+                      "text": "FaQ"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": ""
+                        }
+                      },
+                      "text": "Symption Based Prediction",
+                      "link": ""
+                    },
+                    {
+                      "text": "Thank you",
+                      "image": {
+                        "src": {
+                          "rawUrl": ""
+                        }
+                      },
+                      "link": ""
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

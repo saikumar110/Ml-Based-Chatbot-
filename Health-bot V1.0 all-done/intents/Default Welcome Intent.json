@@ -1,0 +1,105 @@
+{
+  "id": "e0ba1690-410f-4f22-a93c-d5729f20456a",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "awaiting-name",
+          "lifespan": 5
+        },
+        {
+          "name": "nutritions-specalist",
+          "lifespan": 5
+        },
+        {
+          "name": "covid-news",
+          "lifespan": 5
+        },
+        {
+          "name": "covid-stats",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Hey Welcome To The Smart Health Assistance, I Can Help You With"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Symptoms Based Predictions",
+                      "image": {
+                        "src": {}
+                      }
+                    },
+                    {
+                      "image": {
+                        "src": {}
+                      },
+                      "text": "Nutritions Specalist"
+                    },
+                    {
+                      "image": {
+                        "src": {}
+                      },
+                      "text": "Covid-News"
+                    },
+                    {
+                      "image": {
+                        "src": {}
+                      },
+                      "text": "Covid-stats"
+                    },
+                    {
+                      "text": "Thank You",
+                      "image": {
+                        "src": {}
+                      }
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

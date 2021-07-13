@@ -1,0 +1,46 @@
+{
+  "id": "0174deeb-db76-4c6e-bfb7-efa2148595f3",
+  "name": "Nutritions Specalist",
+  "auto": true,
+  "contexts": [
+    "nutritions-specalist"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "calorie-counter",
+          "lifespan": 5
+        },
+        {
+          "name": "nutrition-info",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "1) Calorie Counter   2) Nutrition information"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
