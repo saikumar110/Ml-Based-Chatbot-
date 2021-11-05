@@ -55,7 +55,7 @@ def preprocessing(req):  # processing request from the dialogflow
                 {
                     "text": {
                         "text": [
-                            'final_result'
+                            final_result
                         ]
                     }
                 }
